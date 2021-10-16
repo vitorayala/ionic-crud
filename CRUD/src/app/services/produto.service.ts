@@ -11,7 +11,7 @@ import { catchError, map } from 'rxjs/operators';
 export class ProdutoService {
 
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  URL = 'http://localhost/PHP_API/produto/';
+  URL = 'http://localhost/backend/produto/';
   constructor(
     private http: HttpClient,
     private toastController: ToastController
