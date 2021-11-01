@@ -6,6 +6,7 @@ Header add Access-Control-Allow-Headers: "Origin, Content-Type, Accept, Authoriz
 Header add Access-Control-Allow-Credentials: "true"
 
 RewriteRule ^contar?$                       contar.php [NC,L]
+RewriteRule ^auth?$                         auth.php [NC,L]
 RewriteRule ^produto/?$                     produto/listar.php [NC,L]
 RewriteRule ^produto/inserir/?$             produto/inserir.php [NC,L]
 RewriteRule ^produto/([0-9-]+)/?$           produto/consultar.php?id=$1 [NC,L]

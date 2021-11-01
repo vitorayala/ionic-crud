@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <ion-item>
+      <ion-label position='floating'>Usuário</ion-label>
+      <ion-input type='text' placeholde='Digite seu usuário' name='usuario' [(ngModel)]='login.usuario'></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position='floating'>Senha</ion-label>
+      <ion-input type='password' placeholde='Digite sua senha' name='senha' [(ngModel)]='login.senha'></ion-input>
+    </ion-item>
+    <ion-button (click)='entrar()'>
+        Entrar
+    </ion-button>
+  </form>
+</ion-content>

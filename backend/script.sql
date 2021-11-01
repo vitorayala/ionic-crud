@@ -16,3 +16,12 @@ INSERT INTO `produto` (`pro_id`, `pro_descricao`, `pro_preco`, `pro_validade`) V
 (5, 'Abacate', '9.68', '2021-12-24'),
 (6, 'Cenoura', '2.15', '2021-05-24'),
 (7, 'Tomate', '3.98', '2021-05-01');
+
+CREATE TABLE users(
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  usuario VARCHAR(90) NOT NULL,
+  senha VARCHAR(90) NOT NULL
+)
+
+INSER INTO `users` (`usuario`, `senha`) VALUES
+(1, 'marcelo', '123')

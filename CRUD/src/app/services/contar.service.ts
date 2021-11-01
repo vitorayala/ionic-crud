@@ -10,7 +10,7 @@ import { catchError, map } from 'rxjs/operators';
 export class ContarService {
 
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  URL = 'http://localhost/PHP_API/contar';
+  URL = 'http://localhost/backend/contar';
 
   constructor(
     private http: HttpClient, // requisições http
